@@ -1,0 +1,21 @@
+﻿<porteLieux>
+
+<lieux_depart_debutJeu nom="TEST" nom_fond="TEST" numeroHorizon="2" colonne_depart="8" ligne_depart="28" controlZoom="0" controlCam="3"/>
+/*nom="depart" nom_fond="depart" numeroHorizon="2" colonne_depart="19" ligne_depart="22" controlZoom="0" controlCam="3" type="cine" type="boss" type="dial" idType="0" */
+
+<lieux_depart nom="TEST">
+<porte numero="0" nom="TEST_1" nom_fond="TEST" numeroHorizon="2" colonne_depart="8" ligne_depart="28" controlZoom="1" controlCam="3" />
+<porte numero="1" nom="TEST_1" nom_fond="TEST" numeroHorizon="2" colonne_depart="12" ligne_depart="28" controlZoom="1" controlCam="4" />
+<porte numero="10" nom="TEST" nom_fond="TEST" numeroHorizon="2" colonne_depart="40" ligne_depart="28" controlZoom="0" controlCam="4" />
+<porte numero="11" nom="TEST" nom_fond="TEST" numeroHorizon="2" colonne_depart="6" ligne_depart="28" controlZoom="0" controlCam="3" />
+
+<porte numero="100" nom="TEST_1" nom_fond="TEST" numeroHorizon="2" colonne_depart="10" ligne_depart="28" controlZoom="0" controlCam="3" type="cine" idType="1"/>
+
+</lieux_depart>
+
+<lieux_depart nom="TEST_1">
+<porte numero="0" nom="TEST" nom_fond="TEST" numeroHorizon="2" colonne_depart="8" ligne_depart="28" controlZoom="0" controlCam="3" />
+<porte numero="1" nom="TEST" nom_fond="TEST" numeroHorizon="2" colonne_depart="10" ligne_depart="28" controlZoom="0" controlCam="4" />
+</lieux_depart>
+
+</porteLieux>

@@ -1,0 +1,18 @@
+<cineControl>
+
+/*cinematique_intro nom="testLong" nom_fond="testLong" numeroHorizon="2" colonne_depart="20" ligne_depart="19" zoom_depart="1" cam_depart="3" colonne_arrive="20" ligne_arrive="19" zoom_arrive="1" cam_arrive="3" vitesseDG="16" vitesseHB="16"/>*/
+/* peur,content,invisible, */
+/*secance numero="2" nom_niveau="TEST" porte_arrive="100"*/
+
+<cinematique id="0" nom="TEST" nom_fond="TEST" numeroHorizon="2" colonne="8" ligne="28" zoom="0" cam="4">
+	
+	<secance numero="0" video="intro"/>
+	<secance numero="1" colonne="8" ligne="22" zoom="0" cam="3" vitesseDG="8" vitesseHB="8" tempo="25" posture_heros="invisible"/>
+	
+</cinematique>
+
+<cinematique id="1" nom="TEST_1" nom_fond="TEST" numeroHorizon="2" colonne="9" ligne="20" zoom="0" cam="3">
+	<secance numero="0" colonne="8" ligne="28" zoom="0" cam="3" vitesseDG="8" vitesseHB="8" posture_heros="invisible"/>
+</cinematique>
+
+</cineControl>

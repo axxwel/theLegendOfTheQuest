@@ -1,0 +1,67 @@
+﻿<liste_PNJ>
+
+<lieux nom="TEST">
+
+<pnj numero="0" pied="1" habit_bas="4" habit_haut="4" visage="2" sourcil="2" oeil="1" casque="5" main="1" habit_bras="4" attitude="7" sens="0" heros_demon="1">
+	<secance numero="0">
+		<dialogue numero="0" personage="0" attitude_heros="1" attitude_perso="16" texte="position 1"/>
+	</secance>
+</pnj>
+
+<pnj numero="1" pied="3" habit_bas="3" habit_haut="3" visage="1" sourcil="1" oeil="3" casque="3" main="1" habit_bras="3" attitude="7" sens="-1">
+	<secance numero="0">
+		<dialogue numero="0" personage="0" attitude_heros="13" attitude_perso="1" texte="t'aurai pas" reponse1="1.1" reponse2="2.2" attitude_reponse1="3" texte_reponse1="une épée" attitude_reponse2="8" texte_reponse2=" un marteau"/>
+		<dialogue numero="1" personage="1" attitude_heros="16" attitude_perso="3" texte="tient une épée" itemDonne="3.01" reponse1="3.3" reponse2="4.4"/>
+		<dialogue numero="2" personage="1" attitude_heros="12" attitude_perso="2" texte="tient un marteau" itemDonne="3.03" reponse1="3.3" reponse2="4.4"/>
+		<dialogue numero="3" personage="0" attitude_heros="8" attitude_perso="3" texte="merci!!!" secance="TEST,1,1!TEST,2,1"/>
+		<dialogue numero="4" personage="1" attitude_heros="8" attitude_perso="3" texte="tampis pour toi"/>
+	</secance>
+	<secance numero="1">
+		<dialogue numero="0" personage="1" attitude_heros="16" attitude_perso="3" texte="j'ai plus rien pour toi!!"/>
+	</secance>
+</pnj>
+
+<pnj numero="2" pied="3" habit_bas="3" habit_haut="3" visage="1" sourcil="1" oeil="3" casque="3" main="1" habit_bras="3" attitude="7" sens="-1">
+	<secance numero="0">
+		<dialogue numero="0" personage="1" attitude_heros="5" attitude_perso="4" texte="tu me done une épée?" itemDemande="3.01" reponse1="1.1" reponse2="2.2"/>
+		<dialogue numero="1" personage="1" attitude_heros="6" attitude_perso="3" texte="merci" secance="TEST,2,1"/>
+		<dialogue numero="2" personage="1" attitude_heros="6" attitude_perso="3" texte="connard!!!"/>
+	</secance>
+	<secance numero="1">
+		<dialogue numero="0" personage="1" attitude_heros="16" attitude_perso="3" texte="trop sympa ton épée!!"/>
+	</secance>
+</pnj>
+
+<pnj numero="3" pied="1" habit_bas="2" habit_haut="6" visage="4" oeil="1" casque="5" sourcil="1" main="1" habit_bras="6" sens="0">
+	<secance numero="0">
+		<dialogue numero="0" personage="1" attitude_heros="5" attitude_perso="4" texte="bonjour c'est pour acheter ou pour vendre?" suivant="1"/>
+		<dialogue numero="1" personage="0" attitude_heros="6" attitude_perso="3" texte="heu...?" reponse1="2.4" reponse2="5.7" attitude_reponse1="3" texte_reponse1="acheter" attitude_reponse2="8" texte_reponse2="vendre"/>
+		<dialogue numero="2" personage="1" attitude_heros="6" attitude_perso="3" texte="voilà ce qu j'ai" magasinAchat="3,1,100!3,2,30!3,3,20!5,1,20!6,1,20!7,1,30!5,2,3!6,1,5!7,1,7" reponse2="8.8"/>
+		<dialogue numero="3" personage="1" attitude_heros="5" attitude_perso="4" texte="et avec ceci?" suivant="1"/>
+		<dialogue numero="4" personage="0" attitude_heros="6" attitude_perso="3" texte="ehu...?" reponse1="2.4" reponse2="8.8" attitude_reponse1="3" texte_reponse1="autre chose" attitude_reponse2="8" texte_reponse2="non merci"/>
+		<dialogue numero="5" personage="1" attitude_heros="6" attitude_perso="3" texte="fais voir ce que tu as mais je n'achette que ces produit" magasinVente="3,1,100!3,2,30!3,3,20!" reponse2="8.8"/>
+		<dialogue numero="6" personage="1" attitude_heros="5" attitude_perso="4" texte="tu as autre chose pour moi?" suivant="1"/>
+		<dialogue numero="7" personage="0" attitude_heros="6" attitude_perso="3" texte="heu...?" reponse1="5.7" reponse2="8.8" attitude_reponse1="3" texte_reponse1="oui." attitude_reponse2="8" texte_reponse2="non rien."/>
+		<dialogue numero="8" personage="1" attitude_heros="6" attitude_perso="3" texte="au revoir et bonne journée" />
+	</secance>
+</pnj>
+
+<pnj numero="4" pied="1" habit_bas="2" habit_haut="6" visage="4" oeil="1" casque="5" sourcil="1" main="1" habit_bras="6" sens="0" >
+	<secance numero="0" block="1">
+		<dialogue numero="0" checkTenue="2,2,2" reponse1="1.1" reponse2="2.2"/>
+		<dialogue numero="1" personage="1" attitude_heros="5" attitude_perso="4" texte="t'es à poil boufon hi! hi! hi!"/>
+		<dialogue numero="2" personage="1" attitude_heros="6" attitude_perso="3" texte="j'aime bien tes habits, il sont trop sympa..."secance="1"/>
+	</secance>
+	<secance numero="1">
+		<dialogue numero="0" personage="1" attitude_heros="16" attitude_perso="3" texte="TROP SYMPA TON EPPEE!!"/>
+	</secance>
+</pnj>
+
+
+</lieux>
+
+<lieux nom="TEST1">
+</lieux>
+
+
+</liste_PNJ>
